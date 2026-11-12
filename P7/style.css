@@ -1,0 +1,20 @@
+:root {
+  --primary-color: #2563eb;
+  --bg-color: #f8fafc;
+  --text-color: #0f172a;
+  --font-main: system-ui, -apple-system, sans-serif;
+  --space-md: 16px;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-main);
+  line-height: 1.6;
+  padding: var(--space-md);
+}
+
+h1 {
+  color: var(--primary-color);
+  font-size: 2rem;
+}
